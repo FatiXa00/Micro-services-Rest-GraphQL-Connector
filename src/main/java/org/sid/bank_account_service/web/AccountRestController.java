@@ -56,4 +56,5 @@ public class AccountRestController {
     public void deleteAccount(@PathVariable String id) {
         bankAccountRepository.deleteById(id);
     }
+
 }
